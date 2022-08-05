@@ -152,24 +152,6 @@ body.active
 {
     color: #333;
 }
-.skip1{
-    background: #03a9f4;
-    padding: 10px;
-    top: 101px;
-    position: relative;
-    left: 198px;
-    cursor: pointer;
-}
-.skip2{
-    cursor: pointer;
-    background: #03a9f4;
-    position: relative;
-    padding: 10px;
-    left: 199px;
-    top: 48px;
-
-}
-
 @media(max-width: 991px)
 {
     .container
