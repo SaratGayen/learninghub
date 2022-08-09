@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgba(223, 219, 219, 0.753);
+  }
+  .underline {
+    border-bottom: 2px solid rgb(196, 92, 92);
+
+  }
+
+  .nav-link {
+    font-weight: bold;
+  }
+  .offer-div {
+    background-color: rgba(240, 34, 34, 0.342);
+    width: 100%;
+    border-bottom: 1.5px solid red;
+  }
+
+  .ptag-div {
+    font-weight: bold;
+    margin-right: 5px;
+    margin-left: 5px;
+    display: none;
+    color: red;
+  }
+
+  .card-course {
+    margin: 20px;
+    display: none;
+  }
+
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    font-weight: bold;
+  }
+
+  .img-fluid {
+    width: 200px
+  }
+
+  .discription {
+    border-top: 2px solid silver;
+    border-bottom: 2px solid silver;
+  }
+
+  .certificate {
+    width: 300px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1);
+  }
+  #offer-div{
+    margin-left: 23px;
+    margin-right: 33px;
+    
+  }
+
+  /* footer */
+
+  footer{
+    /* position: fixed; */
+    bottom: 0px;
+    width: 100%;
+    background: #111;
+    color: #d9d9d9;
+    
+  }
+  .main-content{
+    display: flex;
+  }
+  .main-content .box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+  }
+  .box h2{
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .box .content{
+    margin: 20px 0 0 0;
+    position: relative;
+  }
+  .box .content:before{
+    position: absolute;
+    content: '';
+    top: -10px;
+    height: 2px;
+    width: 100%;
+    background: #1a1a1a;
+  }
+  .box .content:after{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 15%;
+    background: #f12020;
+    top: -10px;
+  }
+  .left .content p{
+    text-align: justify;
+  }
+  .left .content .social{
+    margin: 6px;
+    
+  }
+  .left .content .social a{
+    padding: 0 2px;
+    color: #d9d9d9;
+  }
+  .left .content .social a span{
+    height: 40px;
+    width: 40px;
+    background: #1a1a1a;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  .left .content .social a span:hover{
+    background: #f12020;
+  
+    
+  }
+  .center .content .fas{
+    font-size: 1.4375rem;
+    background: #1a1a1a;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  .center .content .fas:hover{
+    background: #f12020;
+  }
+  .center .content .text{
+    font-size: 1.0625rem;
+    font-weight: 500;
+    padding-left: 10px;
+  }
+  .center .content .phone{
+    margin: 6px;
+  }
+  .right form .btn button{
+    height: 40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: #f12020;
+    font-size: 1.0625rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s;
+  }
+  .right form .btn button:hover{
+    background: #000;
+  }
+  .bottom center{
+    padding: 5px;
+    font-size: 0.9375rem;
+    background: #151515;
+  }
+  .bottom center span{
+    color: #656565;
+  }
+  .bottom center a{
+    color: #f12020;
+    text-decoration: none;
+  }
+  .bottom center a:hover{
+    text-decoration: underline;
+  }
+
+  /* footer end */
+
+  /* navbar */
+  nav{
+    background: #0e3959;
+    height: 80px;
+    width: 100%;
+  }
+  label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+  }
+  nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+  a.active,a:hover{
+    background: #0e3959;
+    transition: .5s;
+  }
+  .checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+  .login{
+    cursor: pointer;
+  }
+  .logo{
+    top: 2px;
+  position: relative;
+  height: 63px;
+  width: 125px;
+  }
+  
