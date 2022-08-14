@@ -10,7 +10,7 @@ body{
 }
 /* header */
 .hbg{
-    background-image: url(/images/h.jpg);
+    background-image: url(../images/h.jpg);
     width: 100%;
     height: 445px;
     position: relative;
